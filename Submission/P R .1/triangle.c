@@ -7,19 +7,19 @@
 
 void main()
 {
-	int x;
-	int y;
-	int z;
+	int a;
+	int b;
+	int c;
 	
-	printf("Enter You x:");
-	scanf("%d",&x);
-	printf("Enter You y:");
-	scanf("%d",&y);
+	printf("Enter You a:");
+	scanf("%d",&a);
+	printf("Enter You b:");
+	scanf("%d",&b);
 	
 
-	z= 180 - (x+y); // formula to find triangle con..
+	c= 180 - (a+b); // formula to find triangle con..
 	
-	printf("This You ans:%d",z);
+	printf("This You ans:%d",c);
 
 }
 
