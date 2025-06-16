@@ -1,21 +1,21 @@
 #include<stdio.h>
 #include<conio.h>
-// Write C Program to find gross salary.(GROSS SALARY=BASE SALARY+HRA+DA+TA)
+
 void main()
 {
-    int gs, bs, hra, da, ta;
+    int g, b, h, d, t;
 // Ex. Base Salary: 100 RS, HRA=10, DA=5, TA=8.
 
-    printf("Enter bs :");
-    scanf("%d", &bs);
+    printf("Enter b :");
+    scanf("%d", &b);
     printf("Enter hra  :");
-    scanf("%d", &hra);
-    printf("Enter da :");
-    scanf("%d", &da);
-    printf("Enter ta :");
-    scanf("%d", &ta);
+    scanf("%d", &h);
+    printf("Enter d :");
+    scanf("%d", &d);
+    printf("Enter t :");
+    scanf("%d", &t);
 
-    gs = bs + hra + da + ta; // sum of all cost ..
+    g = b + h + d + t; // sum of all cost ..
 
-    printf("gs is %d", gs);
+    printf("g is %d", g);
 }
